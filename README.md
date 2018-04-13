@@ -51,8 +51,8 @@ openssl req -x509 -newkey rsa:4096 -sha256 -nodes -keyout mykey.key -out mycert.
 
 #可选
 #📱scp cert
-scp -i ~/Documents/keys/awsdl.pem ~/Documents/keys/mycert.crt ubuntu@34.201.13.197:cer/mycert.crt
-scp -i ~/Documents/keys/awsdl.pem ~/Documents/keys/mykey.key ubuntu@34.201.13.197:cer/mykey.key
+scp -i ~/Documents/keys/awsdl.pem ~/Documents/keys/mycert.crt ubuntu@34.201.13.19:cer/mycert.crt
+scp -i ~/Documents/keys/awsdl.pem ~/Documents/keys/mykey.key ubuntu@34.201.13.19:cer/mykey.key
 
 
 #kaggle json
